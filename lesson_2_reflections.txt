@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+a .git file is created in the current dir that acts as your repo
+This gives access to the git commands and allows you to include
+files in your repo as tracked files
