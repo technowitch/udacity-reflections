@@ -2,3 +2,20 @@ What happens when you initialize a repository? Why do you need to do it?
 a .git file is created in the current dir that acts as your repo
 This gives access to the git commands and allows you to include
 files in your repo as tracked files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area lets you indicate those files you want to include
+in the next commit, as well as viewing those files in the dir that
+will not be part of the commit. This gives you control more control over your repo.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Once things are added to the staging area, you can then compare them to the working
+files and the most recent commit to check that you are recording the changes
+that you want.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A branch would be useful if you wanted to try something experimental, create a
+different version of the same program (e.g., in a different language), or
+otherwise do something that you would not want to have override the previous 
+master branch commits. Branches allow you to have different versions of your
+project existing simultaneously, with their own commit histories.
