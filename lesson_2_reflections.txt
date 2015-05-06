@@ -19,3 +19,8 @@ different version of the same program (e.g., in a different language), or
 otherwise do something that you would not want to have override the previous 
 master branch commits. Branches allow you to have different versions of your
 project existing simultaneously, with their own commit histories.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help you see how different commits are related, which
+commits are reachable from a particular branch, and which commits are unreacheable
+(if any).
