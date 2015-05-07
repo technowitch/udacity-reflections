@@ -24,3 +24,11 @@ How do the diagrams help you visualize the branch structure?
 The diagrams help you see how different commits are related, which
 commits are reachable from a particular branch, and which commits are unreacheable
 (if any).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging to branches means the changes in each version are combined (usually keeping
+ new additions and removing things that were deleted in only one branch). This 
+ new commit has only one label, usually the other label is deleted. The merge 
+ is represented in the diagram as two branches becoming one branch, which shows 
+ which historical commits are reacheable and the progression of the
+ two branches before they were merged.
