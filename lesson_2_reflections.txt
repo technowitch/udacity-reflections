@@ -32,3 +32,9 @@ Merging to branches means the changes in each version are combined (usually keep
  is represented in the diagram as two branches becoming one branch, which shows 
  which historical commits are reacheable and the progression of the
  two branches before they were merged.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ The automatic merging is less work, although you will still need to resolve
+ conflicts that Git can't figure out, which could be a pain at times.
+ On the other hand, the points of conflict are clearly delineated and therefore
+ easier to address than if you had to find and edit them completely manually.
